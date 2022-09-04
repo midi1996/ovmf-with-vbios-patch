@@ -68,7 +68,7 @@ sed -r -i \
 		-p OvmfPkg/OvmfPkgIa32X64.dsc \
 		-n $(nproc) \
 		-b RELEASE \
-		-D FD_SIZE_2MB \
+		-D FD_SIZE_4MB \
 		-D SMM_REQUIRE \
 		-D SECURE_BOOT_ENABLE \
 		-D HTTP_BOOT_ENABLE \
